@@ -1,0 +1,30 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Importing Bootstrap SCSS file. */
+@import '~bootstrap/scss/bootstrap';
+@import url("https://fonts.googleapis.com/css?family=Montserrat:500,700");
+
+$body-bg-color: #F5F5F5;
+$base-color: #434141;
+$white-color: #FFFFFF;
+$highlight-black-color: #292929;
+$grey-color: #ededed;
+.container { position: relative;}
+.card {  padding: 25px; margin-top: 10px;}
+body { font-size: 14px; color: $base-color; font-family: 'Montserrat'; background-color: $body-bg-color;}
+a {color: $base-color;}
+a:hover {color: #019778; text-decoration: none;}
+.bn { border: none;}
+h1 { font-weight: bold; font-size: 22px; color: #019778; margin-bottom: 15px; position: relative;}
+h1 span { color: $highlight-black-color;}
+h1 span.material-icons { color: $base-color; border: 1px solid $grey-color; padding: 5px; border-radius: 50%; position: absolute; bottom: 15px; left: 0px; }
+strong { color: $highlight-black-color;}
+
+
+.claim-step { position: relative; margin-top: 20px; margin-bottom: 25px;}
+.claim-step .blocks { width: 20%; border-bottom: 4px solid $grey-color; position: relative;}
+.claim-step .blocks .count { font-size: 12px; color: $grey-color; border:1px solid $grey-color; padding: 15px; width: 25px; height: 25px; background-color: $white-color; border-radius: 50%; position: absolute; left: 0px; bottom: -15px;display: flex;
+  align-items: center;  justify-content: center;}
+
+
+

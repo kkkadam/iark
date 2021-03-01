@@ -1,0 +1,34 @@
+.tollfree-info-wrp {
+    padding: 15px;
+    background-color: #019778;
+    color: #FFFFFF;
+    .call-icon{
+
+    }
+    .tollfree-num{
+
+    }
+    .telephone-icon {
+        width: 27px;
+        height: 27px;
+        font-size: 27px;
+    }
+    .tollfree-num{
+        color: #fff;
+        font-size: 26px;
+        margin-left: 16px;
+        text-decoration: none; font-weight: bold;
+    }
+
+}
+
+.guideline-info-wrp {
+    background-color: #282828;
+    color: #fff;
+    padding: 15px;
+    .title span{
+        display: block;
+    }
+    h6.title span { font-weight: bold;}
+    ul.guideline-list li { color: #d4d4d4; font-size: 13px; margin-bottom: 5px;}
+}
